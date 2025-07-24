@@ -38,13 +38,14 @@
     border: none;
     padding: 12px 36px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 150px;
+    padding: 50px 150px 0px 150px;
 }
 
 nav ul li{
@@ -144,7 +145,8 @@ main{
     line-height: .1;
 }
 .reviewer img{
-    size: 20px 20px;
+    size: 40px 40px;
+    border-radius: 9999px;
 }
 
 .reviews{
@@ -152,6 +154,7 @@ main{
     padding: 24px 24px;
     border-radius: 14px;
     max-height: 243px;
+    width: 100%;
 }
 
 .feedback-section{
@@ -226,4 +229,16 @@ footer ul{
     max-width: 531px;
     text-align: center;
     margin: 0 auto;
+    
+}
+
+.btn-primary:hover {
+    background-color: rgb(112, 58, 58);
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+footer{
+    background-color: rgba(78, 71, 255, 0.1);
+    padding-top: 104px;
+    padding-bottom: 103px;
 }
