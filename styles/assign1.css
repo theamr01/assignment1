@@ -192,3 +192,38 @@ main{
 .form-container{
     width: 50%;
 }
+
+.title-part h1{
+    font-size: 100px;
+    text-align: center;
+    line-height: 1.2;
+    margin-bottom: 8px;
+}
+
+.title-part p{
+    text-align: center;
+    color: rgba(137, 135, 161, 1);
+}
+
+footer li{
+    list-style: none;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    max-width: 401px;
+}
+
+
+
+.title-part{
+    max-width: 531px;
+    text-align: center;
+    margin: 0 auto;
+}
